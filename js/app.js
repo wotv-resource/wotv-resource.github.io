@@ -5,7 +5,7 @@ $(document).ready(function () {
     console.log(dataBaseURL);
 
 
-
+/*
     $.ajax({
 
         url: dataBaseURL + '/Units.json',
@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 
     });
-
+*/
 /*    readJSON('data/Units.json')
 
 function readJSON(path) {
