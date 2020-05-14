@@ -1,10 +1,12 @@
 $(document).ready(function () {
 
-    var url = 'data/Units.json';
+    var dataBaseURL = 'https://github.com/wotv-resource/wotv-resource.github.io/tree/master/data'
+
+
 
     $.ajax({
 
-        url: url,
+        url: dataBaseURL + '/Units.json',
         method: 'GET',
         success: function(data) {
             console.log(data);
