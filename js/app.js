@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
-    var dataBaseURL = 'https://github.com/wotv-resource/wotv-resource.github.io/tree/master/data'
+    var dataBaseURL = 'https://github.com/wotv-resource/wotv-resource.github.io/tree/master/data';
+
+    console.log(dataBaseURL);
 
 
 
